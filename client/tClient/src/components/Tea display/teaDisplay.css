@@ -1,0 +1,30 @@
+.tea-display{
+    margin: 30px;
+}
+.tea-display h2{
+    font-size: max(2vw,20px);
+    font-family: 600;
+}
+.tea-display-list{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 20px;
+    row-gap: 50px;
+    gap: 20px;
+}
+@media (max-width:900px){
+    .tea-display-list{
+        width: 100%;
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+@media (max-width:768px){
+    .tea-display-list{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (max-width:412px){
+    .tea-display-list{
+        grid-template-columns: repeat(2,1fr);
+    }
+}

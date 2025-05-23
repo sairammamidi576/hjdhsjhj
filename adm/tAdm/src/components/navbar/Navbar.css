@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 4%;
+}
+.navbar .logo-img{
+    width: max(10%,80px);
+}
+.navbar .logo p{
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+.navbar button{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background: tomato;
+    color: #fff;
+}
+.navbar .profile{
+    width: 40px;
+}
